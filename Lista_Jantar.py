@@ -93,6 +93,14 @@ mensagem_2 = f"Olá, {convidados[1].title()}. Você ainda está convidado(a) par
 print(mensagem_1)
 print(mensagem_2)
 
+#Removendo os dos convidados restantes
+
+convidados_restantes = ['Douglas', 'Ana Clara']
+del convidados_restantes[0]  # Remove 'Douglas' 
+del convidados_restantes[0]  # Remove 'Ana Clara'
+print("Todos os convidados foram removidos da lista.")
+
+
 
 
 
