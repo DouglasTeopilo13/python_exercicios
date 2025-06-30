@@ -1,0 +1,47 @@
+# Exercício usando todas as funcões que aprendi no capitlo 3 do livro
+
+
+# Acessar um ítem específco da lista
+lista_paises = ['Brasil', 'Espanha' , 'Estados Unidos', 'Canada', 'Japao', 'Alemanha', 'Italia', 'Franca']
+print(lista_paises[0])
+
+# Modificar um ítem específico da lista
+lista_paises[-1] = 'Noruega'
+print(lista_paises)
+
+# Inserir um ítem a lista usando insert()
+lista_paises.insert(4, 'Holanda')
+print(lista_paises)
+
+# Remover ítem usando "del"
+del (lista_paises[-1])
+print(lista_paises)
+
+# Remover usando pop()
+lista_paises.pop(2)
+print(lista_paises)
+
+# Ordernar permanentemente a lista em ordem alfabética
+lista_paises.sort()
+print(lista_paises)
+
+# Ordenar permanentemente a lista em ordem alfabética inversa
+lista_paises.sort(reverse=True)
+print(lista_paises)
+
+# Ordenar temporariamente a lista em ordem alfabética
+print(sorted(lista_paises))
+
+# Ordem permanente
+print(lista_paises)
+
+# Exibir a lista da forma inversa
+lista_paises.reverse()
+print(lista_paises)
+
+# Exibir a quantidade de itens na lista
+print(len(lista_paises))
+
+# Adicionar um item na lista usando apeend()
+lista_paises.append('Mexico')
+print(lista_paises)
